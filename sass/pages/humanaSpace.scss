@@ -1,0 +1,160 @@
+.container00 {
+  &.container08 {
+    background-image: url(/img/humanFlight/01.jpg);
+  }
+  &.container09 {
+    background-image: url(/img/humanFlight/02.jpg);
+  }
+  &.container10 {
+    background-image: url(/img/humanFlight/03.jpg);
+  }
+  &.container11 {
+    background-image: url(/img/humanFlight/04.jpg);
+  }
+  &.container12 {
+    background-image: url(/img/humanFlight/05.jpg);
+  }
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .titleHuman {
+    font-size: 120px;
+  }
+  .subTitleHuman {
+    margin-top: 20px;
+    margin-bottom: 73px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .arrowDown {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+}
+
+.eartDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .texteartDesc {
+    color: $table-item;
+    width: 800px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+
+.containerRigthContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.subTitle {
+  margin-bottom: 45px;
+  font-weight: 100;
+}
+
+.emailmath {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+// Reponsividade
+
+@media (max-width: 768px) {
+  .container01Content {
+    .titleHuman {
+      font-size: 80px;
+    }
+  }
+  .containerRigthContent {
+    margin-left: 15%;
+    padding-top: 25%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+    padding-top: 25%;
+  }
+}
+
+@media (max-width: 760px) {
+  .eartDesc {
+    .texteartDesc {
+      color: $table-item;
+      width: auto;
+      font-weight: 400;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 670px) {
+  .downloaddesc {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 637px) {
+  .containerRigthContent {
+    margin-left: 5%;
+    padding-top: 25%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+    padding-top: 25%;
+  }
+
+  .titleSection {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 490px) {
+  .container01Content {
+    .titleHuman {
+      font-size: 50px;
+    }
+    .subTitleHuman {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 519px) {
+  .container01Content {
+    .subTitleHuman {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 326px) {
+  .titleSection {
+    font-size: 20px;
+  }
+  .subTitle {
+    font-size: 12px;
+  }
+}
